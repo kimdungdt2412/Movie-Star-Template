@@ -1,0 +1,62 @@
+/* DESKTOP first  */
+/* xay dung dua tren desktop truoc  */
+
+/* CSS3 */
+
+/* type: screen, print, speech, all */
+
+/* @media screen and (max-width:) {
+
+} */
+
+h1{
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px)
+{
+    /* vung anh huong nho hon 1200px */
+    h1{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    /* vung anh huong nho hon 1200px */
+    h1{
+        background-color: lightblue;
+    }
+}
+
+
+/* MOBILE FIRST  */
+/* man hinh nho truoc */
+h2
+{
+    background-color: lightcoral;
+}
+
+@media screen and (min-width: 768px)
+{
+    /* vung anh huong lon hon 768px */
+    h2{
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width:1200px)
+{
+    /* vung anh huong lon hon 768px */
+    h2{
+        background-color: lightgreen;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width: 1000px)
+{
+    h2{
+        background-color: orange;
+    }
+}
